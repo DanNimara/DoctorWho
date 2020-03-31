@@ -1,0 +1,125 @@
+
+
+
+
+/* ------------meniu ------------------*/
+	ul.menu,ul.submenu{ /* resetarea spatierilor */
+		margin:0px;
+		padding:0px;
+		text-indent:0px;
+	}
+	nav{
+		width:100000%;
+		position:sticky;
+		top: 0px;	
+		left: 0px;
+	}
+	ul.menu>li, ul.menu>li>ul.submenu>li{
+		display:block;
+		
+		font-size:1.2rem;
+		font-weight:bold;
+		height:1.2rem;
+		line-height:1.2rem;
+		text-align:center;		
+		list-style-type:none;
+		overflow:hidden;
+	}
+	ul.menu>li{
+	 float:left;
+	 width:14.28%;
+	}
+	ul.submenu>li{
+	 width:100%;
+	}
+	ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
+		display:block;
+		height:	100%;
+		text-decoration:none;
+		color:Maroon;
+	}
+	ul.menu>li:nth-of-type(even) a, ul.menu>li:nth-of-type(even) div{
+		background:#003b6f;
+	}
+	ul.menu>li:nth-of-type(odd) a, ul.menu>li:nth-of-type(odd) div{
+		background:royalblue;
+	}
+
+	ul.menu>li>ul.submenu{
+		position:relative;
+		top:0px;
+	}
+
+	ul.menu>li>ul.submenu>li
+	{
+		border-top:1px solid black;
+	}
+	ul.menu>li>ul.submenu>li:last-child
+	{
+		border-bottom:1px solid black;
+	}
+
+	ul.menu>li>a:hover, ul.submenu>li>a:hover{
+		background:yellow;
+	}
+	ul.menu>li:hover{
+		overflow:visible;
+	}
+	#stickymenu{
+		position:absolute;
+		width:0.1%;
+		/* top: 0px; */
+		left: 0px;
+		z-index: 500;
+	}
+	
+	.top{	
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				width: 61%;
+			}
+			.c1{
+				background-image: url('dw-villains.jpeg');
+				background-repeat: repeat-x;
+				}
+			.image-responsive {
+				width: 100%;
+				heigth: auto;
+			}
+	
+	@media screen and (min-width:400px) and (max-width:700px){
+		p.text{
+		float:none;
+		width:100%;
+		}
+		figure.img-wrap{
+		width:100%;
+		}
+		
+		ul.menu>li{
+		 width:14.28%;
+		}
+
+		ul.menu>li:hover ul.submenu{
+			width:100vw;
+			position:absolute;
+			left:0px;
+			top:1.2rem;
+			border-top:1px solid magenta;
+			border-bottom:1px solid black;
+		}
+		
+		ul.menu>li:nth-of-type(even):hover ul.submenu{
+				background:#003b6f;
+		}
+		ul.menu>li:nth-of-type(odd):hover ul.submenu{
+				background:royalblue;
+		}
+		ul.menu>li:hover ul.submenu>li{
+			float:left;
+			width:14.28%;
+			border:none;
+		}
+	}
