@@ -1,0 +1,11 @@
+#container::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: hidden;
+	font-size: 0;
+	height: 0;
+}
+#spaceafter{
+	margin-bottom: 5px;
+}

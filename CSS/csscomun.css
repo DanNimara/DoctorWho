@@ -73,15 +73,18 @@
 		z-index: 500;
 	}
 	
-/* ------------meniu ------------------*/
+	
 /* ------------ imagini ------------*/
 	figure {
     display: inline-block;
     border: 1px solid black;
-    margin: 20px; /* adjust as needed */
+    margin: 20px;
 	text-align: center;
 	font-weight: bold;
 	}
+	
+	
+/* -------------- footer ------------- */
 	.top{	
 				display: block;
 				margin-left: auto;
