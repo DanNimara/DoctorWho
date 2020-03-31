@@ -11,6 +11,10 @@ table{
 			margin-bottom: 20px;
 			margin-left: 5px;
         }
+thead,tfoot{
+	background-color: #a2a9b1;
+}
+	
 .toate{
 	background-color: #FFE1F1;
 }
