@@ -208,9 +208,12 @@ html {
 			height: auto;
 		}
 	@media screen and (min-width:360px) and (max-width:499px){
+		h1{ 
+		margin-top:40px;
+		}
 		main{
-			padding-left: 5px;
-			padding-right: 5px;
+			padding-left: 1px;
+			padding-right: 1px;
 		}
 		div#coloane{
 		display: block;
@@ -224,58 +227,50 @@ html {
 		box-sizing: border-box;
 		}
 		ul.menu>li{
-		 width:14.28%;
+			float:left;
+			width:25%;
 		}
-
-		ul.menu>li:hover ul.submenu{
-			width:100vw;
-			position:absolute;
-			left:0px;
-			top:1.2rem;
-			border-top:1px solid magenta;
-			border-bottom:1px solid black;
+		ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
+			display:block;
+			height:	100%;
+			text-decoration:none;
+			color:Maroon;
 		}
-		
 		ul.menu>li:nth-of-type(even):hover ul.submenu{
 				background:#003b6f;
 		}
 		ul.menu>li:nth-of-type(odd):hover ul.submenu{
 				background:royalblue;
 		}
-		ul.menu>li:hover ul.submenu>li{
-			float:left;
-			width:14.28%;
-			border:none;
+		ul.menu>li:hover{
+		overflow:visible;
 		}
 	}
 	@media screen and (min-width:500px) and (max-width:750px){
+		h1{ 
+		margin-top:40px;
+		}
 		main{
 			padding-left: 5px;
 			padding-right: 5px;
 		}
 		
 		ul.menu>li{
-		 width:14.28%;
+		 width:25%;
 		}
-
-		ul.menu>li:hover ul.submenu{
-			width:100vw;
-			position:absolute;
-			left:0px;
-			top:1.2rem;
-			border-top:1px solid magenta;
-			border-bottom:1px solid black;
+		ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
+			display:block;
+			height:	100%;
+			text-decoration:none;
+			color:Maroon;
 		}
-		
 		ul.menu>li:nth-of-type(even):hover ul.submenu{
 				background:#003b6f;
 		}
 		ul.menu>li:nth-of-type(odd):hover ul.submenu{
 				background:royalblue;
 		}
-		ul.menu>li:hover ul.submenu>li{
-			float:left;
-			width:14.28%;
-			border:none;
+		ul.menu>li:hover{
+		overflow:visible;
 		}
 	}
