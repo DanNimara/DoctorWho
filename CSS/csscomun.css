@@ -80,14 +80,16 @@ html {
 	
 	
 /* ------------ imagini ------------*/
-	figure {
+	figure{
     display: inline-block;
     border: 1px solid black;
     margin: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-align: center;
 	font-weight: bold;
 	}
-	.center {
+	.center{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -104,15 +106,25 @@ html {
 		width: 100%;
 		height: auto;
 	}
+	#coloane2>section,#coloane2>figure,#coloane2>p,#coloane2>video{
+		padding: 2px;
+		min-width: 250px;
+		width: 100%;
+		height: auto;
+	}
 	.column{
 		width:45%;
 		padding-left: 10px;
+		padding-right: 10px;
 		box-sizing: border-box;
 	}
 	div#coloane{
 		display: flex;
 		flex-wrap: wrap;
-	/*	background-color: #e9ebee;*/
+	}
+	div#coloane2{
+		display: flex;
+		flex-wrap: wrap;
 	}
 	main{
 		padding-left: 10%;
@@ -122,16 +134,8 @@ html {
 	.greybck{
 		background-color: #e9ebee;
 	}
-	/*#coloane::after{
-		content: " ";
-		clear:both;
-		display: table;
-		visibility: hidden;
-		font-size: 0;
-		height: 0;
-	}*/
 	
-/* -------------- footer ------------- */
+/* -------------- footer and header ------------- */
 	.top{	
 				display: block;
 				margin-left: auto;
@@ -139,14 +143,14 @@ html {
 				margin-top: auto;
 				width: 61%;
 			}
-			.c1{
-				background-image: url('cssimages/dw-villains.jpeg');
-				background-repeat: repeat-x;
-				}
-			.image-responsive {
-				width: 100%;
-				height: auto;
-			}
+	.c1{
+		background-image: url('cssimages/dw-villains.jpeg');
+		background-repeat: repeat-x;
+		}
+	.image-responsive {
+		width: 100%;
+		height: auto;
+	}
 	.alwaystop{
 		font-weight: bold;
 		float:none;
@@ -199,14 +203,20 @@ html {
 		video{
 			width: 100%;
 			height: auto;
-			margin: 10px;
 		}
 		header.c1{
 			width: 100%;
 			height: auto;
 		}
 	@media screen and (min-width:360px) and (max-width:499px){
+		main{
+			padding-left: 5px;
+			padding-right: 5px;
+		}
 		div#coloane{
+		display: block;
+		}
+		div#coloane2{
 		display: block;
 		}
 		.column{
