@@ -6,6 +6,7 @@
 		<meta name="description" content="Abordez problema episoadelor din Doctor Who care nu mai supraviețuiesc în prezent în forma lor difuzată.">
 		<meta name="keywords" content="Doctor Who, BBC, reconstrucție, animație, coloană sonoră, tele-snap, John Cura">
 		<meta name="author" content="Dan Nimară">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="CSS/csscomun.css">
 		<link rel="stylesheet" type="text/css" href="CSS/EpisoadePierdute.css">
 		<script>
@@ -42,16 +43,6 @@
 					<li><a href="SeriaModernă.html"> Seria Modernă</a></li>
 					<li><a href="RasaDalek.html"> Rasa Dalek</a></li>
 					<li>
-					<div><a href="Top5Doctori.html"> Top 5 Doctori</a></div>
-						<ul class="submenu">
-							<li><a href="Top5Doctori.html#5D">Locul 5</a></li>
-							<li><a href="Top5Doctori.html#4D">Locul 4</a></li>
-							<li><a href="Top5Doctori.html#3D">Locul 3</a></li>
-							<li><a href="Top5Doctori.html#2D">Locul 2</a></li>
-							<li><a href="Top5Doctori.html#1D">Locul 1</a></li>
-						</ul>
-					</li>
-					<li>
 					<div><a href="Top5Episoade.html"> Top 5 Episoade</a></div>
 						<ul class="submenu">
 							<li><a href="Top5Episoade.html#5E">Locul 5</a></li>
@@ -61,26 +52,47 @@
 							<li><a href="Top5Episoade.html#1E">Locul 1</a></li>
 						</ul>
 					</li>
+					<li>
+					<div><a href="Top5Doctori.html"> Top 5 Doctori</a></div>
+						<ul class="submenu">
+							<li><a href="Top5Doctori.html#5D">Locul 5</a></li>
+							<li><a href="Top5Doctori.html#4D">Locul 4</a></li>
+							<li><a href="Top5Doctori.html#3D">Locul 3</a></li>
+							<li><a href="Top5Doctori.html#2D">Locul 2</a></li>
+							<li><a href="Top5Doctori.html#1D">Locul 1</a></li>
+						</ul>
+					</li>
 				</ul>
 				</div>
 			</nav>
 			</div>
+			
+		</header>
+		<main>
 			<h1> Episoade pierdute </h1>
 			<aside>
 			Nu toate episoadele din Doctor Who au supraviețuit trecerii timpului în forma lor inițială, iar aici voi prezenta motivele pentru care s-a întâmplat asta.
 			</aside>
-		</header>
-		<main>
-				<figure>
-					<img src="imagini/reconstructions.jpg" alt="Poze cu ceea ce mai există din episoadele lipsă">
-					<figcaption> DVD-uri ce conțin episoade lipsă animate, CD-uri cu soundtrack-uri ale episoadelor lipsă, telesnap-uri</figcaption>
-				</figure>
+				<div class="coloane">
+				<div class="column">
+					<figure>
+						<img src="imagini/reconstructions.jpg" alt="Poze cu ceea ce mai există din episoadele lipsă">
+						<figcaption> DVD-uri ce conțin episoade lipsă animate, CD-uri cu soundtrack-uri ale episoadelor lipsă, telesnap-uri</figcaption>
+					</figure>
+				</div>
+				<div class="column">
 					<p> Multe episoade din serialul Doctor Who nu mai sunt deținute de BBC. Între <time>1967</time> și <time>1978</time> BBC-ul ștergea regulat programe din arhivă, din diverse motive(lipsa de spațiu, raritatea materialelor, lipsa drepturilor de redifuzare). Ca un rezultat al trierii, 97 din 253 de episoade aparținând primelor șase ani ai serialului lipsesc în prezent, în principal din sezoanele 3-5, lăsând 26 de episoade serializate incomplete(în seria clasică poveștile erau formate din 2 până la 12 episoade). Multe altele erau considerate pierdute, până a fi recuperate dintr-o multitudine de surse, în principal de peste hotare. Doctor Who nu este un caz singular, de vreme ce multe alte canale de televiziune își eliberau arhivele prin această manieră. </p>
-				<figure>
-					<img src="imagini/FilmCan.jpg" alt="Film">
-					<figcaption> Singurul episod care există în totalitate din povestea Evil of the Daleks (1967) </figcaption>
-				</figure>
+				</div>
+				<div class="column">
 					<p> Eforturile de a localiza episoadele care lipsesc continuă, întreprinse atât de BBC, cât și de fani ai serialului. Episoadele recuperate au fost restaurate cu multă grijă pentru lansări pe casetă VHS sau DVD. Deși numeroase episoade încă mai lipsesc, coloanele sonore ale acestora există integral. Acestea provin din înregistrări realizate de fani, deseori prin atașarea unui microfon la un reportofon plasat în apropierea televizorului. Multe episoade au fost reconstruite, fie prin animații special comisionate sau prin utilizarea clipurilor și fotografiilor care mai supraviețuiesc. Fotografii făcute ecranului − cunoscute drept "tele-snapuri" − există, făcute de fotograful John Cura. Începând cu sfârșitul anilor '90, grupuri de fani ca și Loose Cannon Productions au reconstruit episoadele lipsă, utilizând scenariile originale pentru a potrivi coloanele sonore cu tele-snapurile lui Cura și alte materiale vizuale. Deși încalcă drepturile de autor, aceste "reconstrucții" au fost în general tolerate de BBC, atâta timp cât nu sunt comercializate pentru profit. </p>
+				</div>
+				<div class="column">
+					<figure>
+						<img src="imagini/FilmCan.jpg" alt="Film">
+						<figcaption> Singurul episod care există în totalitate din povestea Evil of the Daleks (1967) </figcaption>
+					</figure>
+				</div>
+				</div>
 				<table>
 					<caption> Următoarele episoade încă mai lipsesc la momentul actual: </caption>
 					<thead>
@@ -274,14 +286,20 @@
 						</tr>
 					</tfoot>
 				</table>
-				<figure>
-					<img src="imagini/MacraTerror.jpg" alt="Animație a unui episod pierdut">
-					<figcaption> Imagine promoțională a unei reconstrucții animate a The Macra Terror</figcaption>
-				</figure>
-					<video width="1280" height="720" controls>
+				<div class="coloane">
+				<div class="column">
+					<figure>
+						<img src="imagini/MacraTerror.jpg" alt="Animație a unui episod pierdut">
+						<figcaption> Imagine promoțională a unei reconstrucții animate a The Macra Terror</figcaption>
+					</figure>
+				</div>
+				<div class="column">
+					<video width=controls>
 					<source src="videos/MacraTerrorTrailer.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 					</video>
+				</div>
+				</div>
 		</main>
 		<a href="#">La sfârșit și înapoi la început</a>
 		<footer>

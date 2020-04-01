@@ -1,5 +1,11 @@
 
-
+html {
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+}
+body {
+	background-color: #e9ebee;
+}
 
 
 /* ------------meniu ------------------*/
@@ -82,7 +88,40 @@
 	text-align: center;
 	font-weight: bold;
 	}
+	.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+/* ----------- aliniere titlu --------- */
+	h2{
+		text-align: center;
+	}
+/* ------------ coloane --------------*/
 	
+	#coloane>section,#coloane>figure,#coloane>p,#coloane>video{
+		padding: 2px;
+		min-width: 250px;
+		width: 100%;
+		height: auto;
+	}
+	.column{
+		float:left;
+		width:50%;
+	}
+	div#coloane{
+		border-top: 3px inset #BBB;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#coloane::after{
+		content: " ";
+		clear:both;
+		display: table;
+		visibility: hidden;
+		font-size: 0;
+		height: 0;
+	}
 	
 /* -------------- footer ------------- */
 	.top{	
@@ -98,18 +137,25 @@
 				}
 			.image-responsive {
 				width: 100%;
-				heigth: auto;
+				height: auto;
 			}
-	
-	@media screen and (min-width:400px) and (max-width:700px){
-		p.text{
-		float:none;
+	@media screen and (min-width:360px) and (max-width:499px){
+		p{
 		width:100%;
+		height: auto;
 		}
-		figure.img-wrap{
+		img{
 		width:100%;
+		height: auto;
 		}
-		
+		video{
+			width: 100%;
+			height: auto;
+		}
+		header.c1{
+			width: 100%;
+			height: auto;
+		}
 		ul.menu>li{
 		 width:14.28%;
 		}
@@ -134,4 +180,65 @@
 			width:14.28%;
 			border:none;
 		}
+	}
+	@media screen and (min-width:500px) and (max-width:750px){
+		p{
+		float:none;
+		width:100%;
+		}
+		img{
+		width:100%;
+		height: auto;
+		}
+		video{
+			width: 100%;
+			height: auto;
+		}
+		header.c1{
+			width: 100%;
+			height: auto;
+		}
+		ul.menu>li{
+		 width:14.28%;
+		}
+
+		ul.menu>li:hover ul.submenu{
+			width:100vw;
+			position:absolute;
+			left:0px;
+			top:1.2rem;
+			border-top:1px solid magenta;
+			border-bottom:1px solid black;
+		}
+		
+		ul.menu>li:nth-of-type(even):hover ul.submenu{
+				background:#003b6f;
+		}
+		ul.menu>li:nth-of-type(odd):hover ul.submenu{
+				background:royalblue;
+		}
+		ul.menu>li:hover ul.submenu>li{
+			float:left;
+			width:14.28%;
+			border:none;
+		}
+	}
+	@media screen and (min-width:751px){
+		p{
+		float:none;
+		width:100%;
+		}
+		img{
+		width:100%;
+		height: auto;
+		}
+		video{
+			width: 100%;
+			height: auto;
+		}
+		header.c1{
+			width: 100%;
+			height: auto;
+		}
+		
 	}
