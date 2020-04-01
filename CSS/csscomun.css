@@ -143,9 +143,9 @@ html {
 			}
 	.c1{
 		background-image: url('cssimages/dw-villains.jpeg');
-		background-repeat: repeat-x;
+		background-repeat: repeat;
 		}
-	.image-responsive {
+	.image-responsive{
 		width: 100%;
 		height: auto;
 	}
