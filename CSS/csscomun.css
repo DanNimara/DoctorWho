@@ -2,10 +2,9 @@
 html {
     font-size: 18px;
     font-family: "Times New Roman", Times, serif;
+			background-image: url('cssimages/Tardis.png');
 }
-body {
-	background-color: #e9ebee;
-}
+
 
 
 /* ------------meniu ------------------*/
@@ -106,22 +105,31 @@ body {
 		height: auto;
 	}
 	.column{
-		float:left;
-		width:50%;
+		width:45%;
+		padding-left: 10px;
+		box-sizing: border-box;
 	}
 	div#coloane{
-		border-top: 3px inset #BBB;
 		display: flex;
 		flex-wrap: wrap;
+	/*	background-color: #e9ebee;*/
 	}
-	#coloane::after{
+	main{
+		padding-left: 10%;
+		padding-right: 10%;
+
+	}
+	.greybck{
+		background-color: #e9ebee;
+	}
+	/*#coloane::after{
 		content: " ";
 		clear:both;
 		display: table;
 		visibility: hidden;
 		font-size: 0;
 		height: 0;
-	}
+	}*/
 	
 /* -------------- footer ------------- */
 	.top{	
@@ -132,29 +140,79 @@ body {
 				width: 61%;
 			}
 			.c1{
-				background-image: url('dw-villains.jpeg');
+				background-image: url('cssimages/dw-villains.jpeg');
 				background-repeat: repeat-x;
 				}
 			.image-responsive {
 				width: 100%;
 				height: auto;
 			}
-	@media screen and (min-width:360px) and (max-width:499px){
+	.alwaystop{
+		font-weight: bold;
+		float:none;
+		text-align: center;
+		font-size: 1.5em;
+	}
+/* -------------- facebook, twitter, instagram, youtube ----------- */
+			.fa {
+			  padding: 20px;
+			  font-size: 30px;
+			  width: 25px;
+			  text-align: center;
+			  text-decoration: none;
+			  border-radius: 50%;
+			}
+			.fa:hover {
+			  opacity: 0.7;
+			  box-shadow: 0px 0px 15px 5px #F8F8FF;
+			}
+			/* Facebook */
+			.fa-facebook {
+			  background: #3B5998;
+			  color: white;
+			}
+			/* Twitter */
+			.fa-twitter {
+				background: #55ACEE;
+				color: white;
+			}
+			.fa-youtube {
+				background: #bb0000;
+				color: white;
+			}
+			.fa-instagram {
+				background: #125688;
+				color: white;
+			}
+/* ----------- responsive general ---------- */
 		p{
+		float:none;
 		width:100%;
-		height: auto;
 		}
 		img{
 		width:100%;
 		height: auto;
 		}
+		audio{
+			width: 100%;
+		}
 		video{
 			width: 100%;
 			height: auto;
+			margin: 10px;
 		}
 		header.c1{
 			width: 100%;
 			height: auto;
+		}
+	@media screen and (min-width:360px) and (max-width:499px){
+		div#coloane{
+		display: block;
+		}
+		.column{
+		width:100%;
+		padding-left: 10px;
+		box-sizing: border-box;
 		}
 		ul.menu>li{
 		 width:14.28%;
@@ -182,22 +240,11 @@ body {
 		}
 	}
 	@media screen and (min-width:500px) and (max-width:750px){
-		p{
-		float:none;
-		width:100%;
+		main{
+			padding-left: 5px;
+			padding-right: 5px;
 		}
-		img{
-		width:100%;
-		height: auto;
-		}
-		video{
-			width: 100%;
-			height: auto;
-		}
-		header.c1{
-			width: 100%;
-			height: auto;
-		}
+		
 		ul.menu>li{
 		 width:14.28%;
 		}
@@ -222,23 +269,4 @@ body {
 			width:14.28%;
 			border:none;
 		}
-	}
-	@media screen and (min-width:751px){
-		p{
-		float:none;
-		width:100%;
-		}
-		img{
-		width:100%;
-		height: auto;
-		}
-		video{
-			width: 100%;
-			height: auto;
-		}
-		header.c1{
-			width: 100%;
-			height: auto;
-		}
-		
 	}

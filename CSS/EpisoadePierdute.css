@@ -8,8 +8,8 @@ td:empty{
 table{
             border-collapse:collapse;
             empty-cells:show;
-			margin-bottom: 20px;
-			margin-left: 5px;
+			margin-right: auto;
+			margin-left: auto;
         }
 thead,tfoot{
 	background-color: #a2a9b1;
