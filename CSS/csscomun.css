@@ -21,10 +21,10 @@ html {
 	ul.menu>li, ul.menu>li>ul.submenu>li{
 		display:block;
 		
-		font-size:1.19rem;
+		font-size:1.4rem;
 		font-weight:bold;
-		height:1.2rem;
-		line-height:1.2rem;
+		height:1.4rem;
+		line-height:1.4rem;
 		text-align:center;		
 		list-style-type:none;
 		overflow:hidden;
@@ -232,6 +232,11 @@ html {
 		ul.menu>li{
 			float:left;
 			width:33.33%;
+		}
+		ul.menu>li, ul.menu>li>ul.submenu>li{
+		font-size:1.1rem;
+		height:1.1rem;
+		line-height:1.1rem;
 		}
 		ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
 			display:block;
