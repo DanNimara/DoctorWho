@@ -20,7 +20,6 @@ html {
 	}
 	ul.menu>li, ul.menu>li>ul.submenu>li{
 		display:block;
-		
 		font-size:1.8rem;
 		font-weight:bold;
 		height:2rem;
@@ -40,7 +39,7 @@ html {
 		display:block;
 		height:	100%;
 		text-decoration:none;
-		color:Maroon;
+		color:MintCream;
 	}
 	ul.menu>li:nth-of-type(even) a, ul.menu>li:nth-of-type(even) div{
 		background:#003b6f;
@@ -143,7 +142,7 @@ html {
 				margin-top: auto;
 				width: 61%;
 			}
-	.c1{
+	header{
 		background-image: url('cssimages/dw-villains.jpeg');
 		background-repeat: repeat;
 		}
@@ -213,7 +212,7 @@ html {
 			width: 100%;
 			height: auto;
 		}
-		header.c1{
+		header{
 			width: 100%;
 			height: auto;
 		}
@@ -251,12 +250,6 @@ html {
 		list-style-type:none;
 		overflow:hidden;
 		}
-		ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
-			display:block;
-			height:	100%;
-			text-decoration:none;
-			color:Maroon;
-		}
 		ul.menu>li:nth-of-type(even):hover ul.submenu{
 				background:#003b6f;
 		}
@@ -284,12 +277,6 @@ html {
 		text-align:center;		
 		list-style-type:none;
 		overflow:hidden;
-		}
-		ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
-			display:block;
-			height:	100%;
-			text-decoration:none;
-			color:Maroon;
 		}
 		ul.menu>li:nth-of-type(even):hover ul.submenu{
 				background:#003b6f;
