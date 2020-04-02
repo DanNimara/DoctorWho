@@ -6,7 +6,6 @@ html {
 }
 
 
-
 /* ------------meniu ------------------*/
 	ul.menu,ul.submenu{ /* resetarea spatierilor */
 		margin:0px;
@@ -119,10 +118,14 @@ html {
 	div#coloane{
 		display: flex;
 		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
 	}
 	div#coloane2{
 		display: flex;
 		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
 	}
 	main{
 		padding-left: 10%;
