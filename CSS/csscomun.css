@@ -21,7 +21,7 @@ html {
 	ul.menu>li, ul.menu>li>ul.submenu>li{
 		display:block;
 		
-		font-size:2rem;
+		font-size:1.8rem;
 		font-weight:bold;
 		height:2rem;
 		line-height:2rem;
@@ -247,6 +247,9 @@ html {
 		font-size:1.1rem;
 		height:1.25rem;
 		line-height:1.25rem;
+		text-align:center;		
+		list-style-type:none;
+		overflow:hidden;
 		}
 		ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
 			display:block;
@@ -278,6 +281,9 @@ html {
 		font-size:1.4rem;
 		height:1.4rem;
 		line-height:1.4rem;
+		text-align:center;		
+		list-style-type:none;
+		overflow:hidden;
 		}
 		ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
 			display:block;
