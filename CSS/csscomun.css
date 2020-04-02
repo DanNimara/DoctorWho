@@ -21,7 +21,7 @@ html {
 	ul.menu>li, ul.menu>li>ul.submenu>li{
 		display:block;
 		
-		font-size:1.2rem;
+		font-size:1.19rem;
 		font-weight:bold;
 		height:1.2rem;
 		line-height:1.2rem;
@@ -210,7 +210,7 @@ html {
 			width: 100%;
 			height: auto;
 		}
-	@media screen and (min-width:360px) and (max-width:499px){
+	@media screen and (min-width:350px) and (max-width:499px){
 		h1{ 
 		margin-top:40px;
 		}
