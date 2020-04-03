@@ -4,14 +4,3 @@ document.documentElement.clientHeight, document.documentElement.scrollHeight, do
 	document.getElementById("stickymenu").style.height=height+"px"
 	
 }
-
-function PlaySound(soundobj) {
-    var thissound=document.getElementById(soundobj);
-    thissound.play();
-}
-
-function StopSound(soundobj) {
-    var thissound=document.getElementById(soundobj);
-    thissound.pause();
-    thissound.currentTime = 0;
-}
