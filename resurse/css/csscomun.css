@@ -1,7 +1,8 @@
 
 html {
     font-size: 16px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Montserrat", Times, serif;
+	height: 100%;
 	background-image: url('cssimages/Tardis.png');
 }
 h1, aside{
@@ -9,7 +10,8 @@ h1, aside{
 }
 .custompadding{
 	padding-left:1.5vw;
-	padding-right:1.5vw; 
+	padding-right:1.5vw;
+	padding-bottom: 1.5vw;
 }
 
 /* ------------meniu ------------------*/
@@ -86,7 +88,6 @@ h1, aside{
 	figure{
     display: inline-block;
     border: 1px solid black;
-    margin: 1.2em;
 	text-align: center;
 	font-weight: bold;
 	}
@@ -123,6 +124,7 @@ h1, aside{
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
+		padding-bottom: 0.5vw;
 	}
 	div#coloane2{
 		display: flex;
@@ -159,11 +161,14 @@ h1, aside{
 		float:none;
 		text-align: center;
 		font-size: 1.5em;
+		text-decoration: none;
 	}
 /* -------------- facebook, twitter, instagram, youtube ----------- */
 			.socialmedia{
 				display: flex;
 				justify-content: center;
+				padding-top: 0.5vw;
+				padding-bottom: 0.5vw;
 			}
 			.fa {
 			  padding: 20px;
