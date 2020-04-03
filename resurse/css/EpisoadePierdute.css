@@ -36,14 +36,7 @@ thead,tfoot{
 	background-color: #FCFFB8;
 }
 
-@media screen and (min-width:350px) and (max-width:1160px){
-	table{
-        border-collapse:collapse;
-        empty-cells:show;
-		margin-right: 10px;
-		margin-left: 10px;
-        }
-}
+
 @media screen and (min-width:350px) and (max-width:499px){
 th,td{
            font-size: 1.25rem;

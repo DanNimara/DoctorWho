@@ -83,6 +83,7 @@
 #galeriedw figure:nth-of-type(1){
 	animation-delay:91s;
 }
+
 /*cum calculam timpii:
 - avem 14 poze; vrem pentru fiecare un timp de afisare de 2 secunde si o trecere spre urmatoarea poza de 1 secunda
 - rezulta 3 secunde pentru fiecare imagine
@@ -100,4 +101,12 @@ il calculam cu formula  timp_afisare(normal+trecerea la urmatoarea poza)/timp_to
 	92.85999999%{opacity:1;transform:skewX(0deg);z-index:-1;}	
 	92.86%{z-index:0;}/*setez z-index la 0 ca sa revina la ordinea normala de afisare*/
 	100%{opacity:1;z-index:0;}
+}
+
+@media screen and (min-width:350px) and (max-width:499px){
+	#galerie-animata:after{
+		margin-left: auto;
+		content:"Animatia nu se afiseaza pe mobil";
+		margin-right: auto;
+	}
 }

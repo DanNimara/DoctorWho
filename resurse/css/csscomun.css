@@ -1,8 +1,8 @@
 
 html {
     font-size: 16px;
-    font-family: "Montserrat", Times, serif;
-	height: 100%;
+    font-family: "Times New Roman", Times, serif;
+	min-height: 100%;
 	background-image: url('cssimages/Tardis.png');
 }
 h1, aside{
@@ -161,7 +161,6 @@ h1, aside{
 		float:none;
 		text-align: center;
 		font-size: 1.5em;
-		text-decoration: none;
 	}
 /* -------------- facebook, twitter, instagram, youtube ----------- */
 			.socialmedia{
@@ -227,3 +226,7 @@ h1, aside{
 		h1{ 
 			margin-top:2rem;
 		}
+		
+		
+		
+		

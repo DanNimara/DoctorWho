@@ -121,9 +121,10 @@
 					<div class="custompadding">
 						<img src="resurse/images/Blu-Ray.jpg" alt="Blu-Ray-uri cu Doctor Who" title="Blu-Ray-uri" class="center">
 					</div>
-				<section>
+				<section id="galerie-animata">
 					<h2> Galerie animată </h2>
-					<div id="galeriedw" class="galerie">
+					<div id="galeriedw" class="galerie" onmouseenter="PlaySound('mySound')" 
+														onmouseleave="StopSound('mySound')">
 						<div>
 							<figure>
 								<img src="resurse/images/gallery/Thirteenth.jpg" alt="Al Treisprezecelea Doctor" />
@@ -191,6 +192,7 @@
 							</figure>
 						</div>
 					</div>
+					<audio id='mySound' source src="resurse/audio/DoctorWhoTheme.mp3" type="audio/mpeg">
 				</section>
 				<div class="socialmedia">
 					<a href="https://www.facebook.com/DoctorWho/" class="fa fa-facebook"></a>
