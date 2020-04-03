@@ -2,21 +2,27 @@
 html {
     font-size: 16px;
     font-family: "Times New Roman", Times, serif;
-			background-image: url('cssimages/Tardis.png');
+	background-image: url('cssimages/Tardis.png');
 }
-
+h1, aside{
+	padding-left:1.5vw;
+}
+.custompadding{
+	padding-left:1.5vw;
+	padding-right:1.5vw; 
+}
 
 /* ------------meniu ------------------*/
 	ul.menu,ul.submenu{ /* resetarea spatierilor */
-		margin:0px;
-		padding:0px;
-		text-indent:0px;
+		margin:0%;
+		padding:0%;
+		text-indent:0%;
 	}
 	nav{
 		width:100000%;
 		position:sticky;
-		top: 0px;	
-		left: 0px;
+		top: 0%;	
+		left: 0%;
 	}
 	ul.menu>li, ul.menu>li>ul.submenu>li{
 		display:block;
@@ -50,7 +56,7 @@ html {
 
 	ul.menu>li>ul.submenu{
 		position:relative;
-		top:0px;
+		top:0%;
 	}
 
 	ul.menu>li>ul.submenu>li
@@ -63,7 +69,7 @@ html {
 	}
 
 	ul.menu>li>a:hover, ul.submenu>li>a:hover{
-		background:yellow;
+		background:DodgerBlue;
 	}
 	ul.menu>li:hover{
 		overflow:visible;
@@ -71,7 +77,7 @@ html {
 	#stickymenu{
 		position:absolute;
 		width:0.1%;
-		left: 0px;
+		left: 0%;
 		z-index: 500;
 	}
 	
@@ -80,7 +86,7 @@ html {
 	figure{
     display: inline-block;
     border: 1px solid black;
-    margin: 20px;
+    margin: 1.2em;
 	text-align: center;
 	font-weight: bold;
 	}
@@ -96,21 +102,20 @@ html {
 /* ------------ coloane --------------*/
 	
 	#coloane>section,#coloane>figure,#coloane>p,#coloane>video{
-		padding: 2px;
 		min-width: 250px;
 		width: 100%;
 		height: auto;
 	}
 	#coloane2>section,#coloane2>figure,#coloane2>p,#coloane2>video{
-		padding: 2px;
+		padding: 1.5vw;
 		min-width: 250px;
 		width: 100%;
 		height: auto;
 	}
 	.column{
 		width:50%;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 1.5vw;
+		padding-right: 1.5vw;
 		box-sizing: border-box;
 	}
 	div#coloane{
@@ -128,7 +133,6 @@ html {
 	main{
 		padding-left: 10%;
 		padding-right: 10%;
-
 	}
 	.greybck{
 		background-color: #e9ebee;
@@ -197,18 +201,17 @@ html {
 			}
 /* ----------- responsive general ---------- */
 		p{
-		float:none;
-		width:100%;
+			float:none;
+			width:100%;
 		}
 		img{
-		width:100%;
-		height: auto;
+			width:100%;
+			height: auto;
 		}
 		audio{
 			width: 100%;
 		}
 		video{
-			margin-top: 20px;
 			width: 100%;
 			height: auto;
 		}
@@ -217,71 +220,5 @@ html {
 			height: auto;
 		}
 		h1{ 
-		margin-top:30px;
+			margin-top:2rem;
 		}
-	@media screen and (min-width:350px) and (max-width:499px){
-		h1{ 
-		margin-top:40px;
-		}
-		main{
-			padding-left: 1px;
-			padding-right: 1px;
-		}
-		div#coloane{
-		display: block;
-		}
-		div#coloane2{
-		display: block;
-		}
-		.column{
-		width:100%;
-		padding-left: 10px;
-		box-sizing: border-box;
-		}
-		ul.menu>li{
-			float:left;
-			width:33.33333333333%;
-		}
-		ul.menu>li, ul.menu>li>ul.submenu>li{
-		font-size:1.1rem;
-		height:1.25rem;
-		line-height:1.25rem;
-		text-align:center;		
-		list-style-type:none;
-		overflow:hidden;
-		}
-		ul.menu>li:nth-of-type(even):hover ul.submenu{
-				background:#003b6f;
-		}
-		ul.menu>li:nth-of-type(odd):hover ul.submenu{
-				background:royalblue;
-		}
-	}
-	@media screen and (min-width:500px) and (max-width:800px){
-		h1{ 
-		margin-top:40px;
-		}
-		main{
-			padding-left: 5px;
-			padding-right: 5px;
-		}
-		
-		ul.menu>li{
-			float: left;
-			width:33.33333333333%;
-		}
-		ul.menu>li, ul.menu>li>ul.submenu>li{
-		font-size:1.4rem;
-		height:1.4rem;
-		line-height:1.4rem;
-		text-align:center;		
-		list-style-type:none;
-		overflow:hidden;
-		}
-		ul.menu>li:nth-of-type(even):hover ul.submenu{
-				background:#003b6f;
-		}
-		ul.menu>li:nth-of-type(odd):hover ul.submenu{
-				background:royalblue;
-		}
-	}

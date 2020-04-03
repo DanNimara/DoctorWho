@@ -14,7 +14,21 @@ table{
 thead,tfoot{
 	background-color: #a2a9b1;
 }
-	
+.trad .hover{
+     display:none;
+ }
+
+.trad .nohover{
+     display:block;
+ }
+
+.trad:hover .hover{
+     display:block;
+ }
+ 
+.trad:hover .nohover{
+     display:none;
+ }	
 .toate{
 	background-color: #FFE1F1;
 }
