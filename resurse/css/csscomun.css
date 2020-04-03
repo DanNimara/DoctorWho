@@ -108,15 +108,14 @@ h1, aside{
 		height: auto;
 	}
 	#coloane2>section,#coloane2>figure,#coloane2>p,#coloane2>video{
-		padding: 1.5vw;
 		min-width: 250px;
 		width: 100%;
 		height: auto;
 	}
 	.column{
 		width:50%;
-		padding-left: 1.5vw;
-		padding-right: 1.5vw;
+		padding-left: 1vw;
+		padding-right: 1vw;
 		box-sizing: border-box;
 	}
 	div#coloane{
@@ -207,6 +206,8 @@ h1, aside{
 		p{
 			float:none;
 			width:100%;
+			text-indent: 4.5vw;
+			text-align: justify;
 		}
 		img{
 			width:100%;

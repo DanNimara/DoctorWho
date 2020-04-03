@@ -9,3 +9,6 @@
 #spaceafter{
 	margin-bottom: 5px;
 }
+.no-indent{
+	text-indent:0;
+}
