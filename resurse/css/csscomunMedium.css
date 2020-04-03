@@ -12,9 +12,9 @@ ul.menu>li{
 	width:33.33333333333%;
 }
 ul.menu>li, ul.menu>li>ul.submenu>li{
-	font-size:1.4rem;
-	height:1.4rem;
-	line-height:1.4rem;
+	font-size:1.3rem;
+	height:1.3rem;
+	line-height:1.3rem;
 	text-align:center;		
 	list-style-type:none;
 	overflow:hidden;

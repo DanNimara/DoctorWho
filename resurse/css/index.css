@@ -105,8 +105,6 @@ il calculam cu formula  timp_afisare(normal+trecerea la urmatoarea poza)/timp_to
 
 @media screen and (min-width:350px) and (max-width:499px){
 	#galerie-animata:after{
-		margin-left: auto;
-		content:"Animatia nu se afiseaza pe mobil";
-		margin-right: auto;
+		content:"Animația nu se afișează pe mobil, dar pe PC sau laptop e magnifică.";
 	}
 }
