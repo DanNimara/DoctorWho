@@ -28,9 +28,15 @@ ul.menu>li, ul.menu>li>ul.submenu>li{
 ul.menu>li>ul.dwg>li:nth-of-type(5){
 	display: none;
 }
-footer{
-	display:block;
+figure:hover{
+			transform: none;
+		}
+.sc:hover{
+		transform: none;
 }
 #galeriedw{
 	display: none;
+}
+p{
+	font-size: 1.2em;
 }

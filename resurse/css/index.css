@@ -1,5 +1,10 @@
 #Imagine img{
 	border-radius: 20px;
+	box-shadow: 0px 0px 25px 0px;
+}
+#Doctorii img{
+	border-radius: 20px;
+	box-shadow: 0px 0px 25px 0px;
 }
 .galerie{
 	width:350px;
@@ -102,6 +107,15 @@ il calculam cu formula  timp_afisare(normal+trecerea la urmatoarea poza)/timp_to
 	92.86%{z-index:0;}/*setez z-index la 0 ca sa revina la ordinea normala de afisare*/
 	100%{opacity:1;z-index:0;}
 }
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:350px) and (max-width:499px){
 	#galerie-animata:after{

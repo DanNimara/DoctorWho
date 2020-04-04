@@ -147,6 +147,9 @@ h1, aside{
 				margin-top: auto;
 				width: 61%;
 			}
+	.top:hover{
+		transform: scale(1.01);
+	}
 	header{
 		background-image: url('cssimages/dw-villains.jpeg');
 		background-repeat: repeat;
@@ -178,14 +181,12 @@ h1, aside{
 			}
 			.fa:hover {
 			  opacity: 0.7;
-			  box-shadow: 0px 0px 15px 5px #F8F8FF;
+			  box-shadow: 0px 0px 15px 15px #F8F8FF;
 			}
-			/* Facebook */
 			.fa-facebook {
 			  background: #3B5998;
 			  color: white;
 			}
-			/* Twitter */
 			.fa-twitter {
 				background: #55ACEE;
 				color: white;
@@ -212,6 +213,12 @@ h1, aside{
 		img{
 			width:100%;
 			height: auto;
+		}
+		figure:hover{
+			transform: scale(1.01);
+		}
+		.sc:hover{
+			transform: scale(1.01);
 		}
 		audio{
 			width: 100%;
