@@ -149,7 +149,7 @@ h1, aside{
 			width: 61%;
 	}
 	.top:hover{
-		transform: scale(1.01);
+		transform: scale(1.1);
 	}
 	header{
 		background-image: url('cssimages/dw-villains.jpeg');

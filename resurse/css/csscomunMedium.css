@@ -19,3 +19,12 @@ ul.menu>li, ul.menu>li>ul.submenu>li{
 	list-style-type:none;
 	overflow:hidden;
 }
+figure:hover{
+			transform: none;
+		}
+.sc:hover{
+		transform: none;
+}
+.top:hover{
+		transform: none;
+}
