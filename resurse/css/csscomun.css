@@ -1,10 +1,11 @@
-
 html{
     font-size: 16px;
     font-family: 'Montserrat', serif;
 	min-height: 100%;
 	background-image: url('cssimages/Tardis.png');
 }
+
+/* --------- pentru elementele din afara flexbox ----- */
 h1, aside{
 	padding-left:1.5vw;
 }
@@ -141,12 +142,12 @@ h1, aside{
 	
 /* -------------- footer and header ------------- */
 	.top{	
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				margin-top: auto;
-				width: 61%;
-			}
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: auto;
+			width: 61%;
+	}
 	.top:hover{
 		transform: scale(1.01);
 	}
@@ -160,7 +161,6 @@ h1, aside{
 	}
 	.alwaystop{
 		font-weight: bold;
-		float:none;
 		text-align: center;
 		font-size: 1.5em;
 	}
@@ -171,7 +171,7 @@ h1, aside{
 				padding-top: 0.5vw;
 				padding-bottom: 0.5vw;
 			}
-			.fa {
+			.fa{
 			  padding: 20px;
 			  font-size: 30px;
 			  width: 25px;
@@ -179,9 +179,9 @@ h1, aside{
 			  text-decoration: none;
 			  border-radius: 50%;
 			}
-			.fa:hover {
+			.fa:hover{
 			  opacity: 0.7;
-			  box-shadow: 0px 0px 15px 15px #F8F8FF;
+			  box-shadow: 0px 0px 10px 10px #F8F8FF;
 			}
 			.fa-facebook {
 			  background: #3B5998;
@@ -216,9 +216,13 @@ h1, aside{
 		}
 		figure:hover{
 			transform: scale(1.01);
+			box-shadow: 0px 0px 15px 0px;
+			border: none;
 		}
 		.sc:hover{
 			transform: scale(1.01);
+			box-shadow: 0px 0px 15px 0px;
+			border: none;
 		}
 		audio{
 			width: 100%;
