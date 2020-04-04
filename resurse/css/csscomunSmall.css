@@ -28,15 +28,6 @@ ul.menu>li, ul.menu>li>ul.submenu>li{
 ul.menu>li>ul.dwg>li:nth-of-type(5){
 	display: none;
 }
-figure:hover{
-			transform: none;
-		}
-.sc:hover{
-		transform: none;
-}
-.top:hover{
-		transform: none;
-	}
 #galeriedw{
 	display: none;
 }
