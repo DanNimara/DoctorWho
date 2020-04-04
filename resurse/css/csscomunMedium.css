@@ -21,10 +21,14 @@ ul.menu>li, ul.menu>li>ul.submenu>li{
 }
 figure:hover{
 			transform: none;
+			box-shadow: none;
+			border: 1px solid black;
 		}
 .sc:hover{
 		transform: none;
+		box-shadow: none;
 }
 .top:hover{
 		transform: none;
+		box-shadow: none;
 }
